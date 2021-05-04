@@ -106,7 +106,6 @@ class build_ext_cmake(build_ext):
 
 
 setup(
-    version=version,
     ext_modules=[
         CMakeExtension('proposal'),
     ],
